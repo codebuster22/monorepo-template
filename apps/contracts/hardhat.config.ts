@@ -1,11 +1,14 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 import dotenv from "dotenv";
 import { HardhatUserConfig } from 'hardhat/config';
-import "@nomicfoundation/hardhat-foundry";
-import "@nomicfoundation/hardhat-toolbox";
-import "hardhat-deploy";
 import { NetworkUserConfig } from "hardhat/types";
 import {checkForUndefined} from "@chain-labs/utils";
+import "@nomicfoundation/hardhat-foundry";
+import "@nomicfoundation/hardhat-toolbox";
+import "hardhat-deploy"
+import "hardhat-packager";
+import "hardhat-tracer";
+import "@openzeppelin/hardhat-upgrades";
 dotenv.config({ path: "./.env" });
 
 const {
