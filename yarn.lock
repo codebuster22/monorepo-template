@@ -100,6 +100,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chain-labs/utils@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@chain-labs/utils@npm:0.1.0"
+  checksum: 8d5684095c5c3abf7740e09a93717ef6214550fd9a53656948e42392d8839b7be15fcd9ae988b48c276902c1fd4ef9301327997314ecd5d1d04936cc2bbc0e7b
+  languageName: node
+  linkType: hard
+
 "@chainsafe/as-sha256@npm:^0.3.1":
   version: 0.3.1
   resolution: "@chainsafe/as-sha256@npm:0.3.1"
@@ -3592,6 +3599,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "contracts@workspace:apps/contracts"
   dependencies:
+    "@chain-labs/utils": ^0.1.0
     "@ethersproject/abi": ^5.7.0
     "@ethersproject/providers": ^5.7.2
     "@nomicfoundation/hardhat-chai-matchers": 1
@@ -3606,6 +3614,7 @@ __metadata:
     "@typechain/ethers-v5": ^11.0.0
     "@typechain/hardhat": ^7.0.0
     chai: ^4.3.7
+    dotenv: ^16.3.1
     ethers: 5.7.2
     hardhat: ^2.14.1
     hardhat-contract-sizer: ^2.9.0
@@ -4059,6 +4068,13 @@ __metadata:
   dependencies:
     no-case: ^2.2.0
   checksum: 5c9d937245ff810a7ae788602e40c62e38cb515146ddf9b11c7f60cb02aae84859588761f1e8769d9e713609fae3c78dc99c8da9e0ee8e4d8b5c09a2fdf70328
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.3.1":
+  version: 16.3.1
+  resolution: "dotenv@npm:16.3.1"
+  checksum: 15d75e7279018f4bafd0ee9706593dd14455ddb71b3bcba9c52574460b7ccaf67d5cf8b2c08a5af1a9da6db36c956a04a1192b101ee102a3e0cf8817bbcf3dfd
   languageName: node
   linkType: hard
 

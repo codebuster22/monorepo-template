@@ -162,6 +162,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@chain-labs/utils", [\
+        ["npm:0.1.0", {\
+          "packageLocation": "./.yarn/cache/@chain-labs-utils-npm-0.1.0-d16d065744-8d5684095c.zip/node_modules/@chain-labs/utils/",\
+          "packageDependencies": [\
+            ["@chain-labs/utils", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@chainsafe/as-sha256", [\
         ["npm:0.3.1", {\
           "packageLocation": "./.yarn/cache/@chainsafe-as-sha256-npm-0.3.1-02546f2fc1-58ea733be1.zip/node_modules/@chainsafe/as-sha256/",\
@@ -4265,6 +4274,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/contracts/",\
           "packageDependencies": [\
             ["contracts", "workspace:apps/contracts"],\
+            ["@chain-labs/utils", "npm:0.1.0"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@ethersproject/providers", "npm:5.7.2"],\
             ["@nomicfoundation/hardhat-chai-matchers", "virtual:2a66f0d4bba450761b4f8be836a96cb7e493a375f7e2a74461c295cf0c5bea03b7915e668e08cb0fe67e16ea0d6730cf3b5a19c77073ce4b17c19285611d65e0#npm:1.0.6"],\
@@ -4282,6 +4292,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typechain/ethers-v5", "virtual:2a66f0d4bba450761b4f8be836a96cb7e493a375f7e2a74461c295cf0c5bea03b7915e668e08cb0fe67e16ea0d6730cf3b5a19c77073ce4b17c19285611d65e0#npm:11.0.0"],\
             ["@typechain/hardhat", "virtual:2a66f0d4bba450761b4f8be836a96cb7e493a375f7e2a74461c295cf0c5bea03b7915e668e08cb0fe67e16ea0d6730cf3b5a19c77073ce4b17c19285611d65e0#npm:7.0.0"],\
             ["chai", "npm:4.3.7"],\
+            ["dotenv", "npm:16.3.1"],\
             ["ethers", "npm:5.7.2"],\
             ["hardhat", "virtual:2a66f0d4bba450761b4f8be836a96cb7e493a375f7e2a74461c295cf0c5bea03b7915e668e08cb0fe67e16ea0d6730cf3b5a19c77073ce4b17c19285611d65e0#npm:2.14.1"],\
             ["hardhat-contract-sizer", "virtual:2a66f0d4bba450761b4f8be836a96cb7e493a375f7e2a74461c295cf0c5bea03b7915e668e08cb0fe67e16ea0d6730cf3b5a19c77073ce4b17c19285611d65e0#npm:2.9.0"],\
@@ -4836,6 +4847,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dot-case", "npm:2.1.1"],\
             ["no-case", "npm:2.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.3.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.3.1-e6d380a398-15d75e7279.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
